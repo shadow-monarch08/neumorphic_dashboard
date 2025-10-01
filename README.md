@@ -95,21 +95,21 @@ server/
 
 ### 1. Auth Pages
 
-![Sign Up](public/screenshots/signup.png)
-![Sign In](public/screenshots/signin.png)
+![Sign Up](client/public/screenshots/signup.png)
+![Sign In](client/public/screenshots/signin.png)
 
 ### 2. Dashboard
 
-![Dashboard Overview](public/screenshots/dashboard.png)
+![Dashboard Overview](client/public/screenshots/dashboard.png)
 
 ### 3. Task & Calendar
 
-![Calendar View](public/screenshots/dashboard_2.png)
-![Task Modal](public/screenshots/dashboard_3.png)
+![Calendar View](client/public/screenshots/dashboard_2.png)
+![Task Modal](client/public/screenshots/dashboard_3.png)
 
 ### 4. Subscriptions
 
-![Subscriptions Page](public/screenshots/email.png)
+![Subscriptions Page](client/public/screenshots/email.png)
 
 ---
 
