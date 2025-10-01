@@ -98,12 +98,9 @@ server/
 ![Sign Up](client/public/screenshots/signup.png)
 ![Sign In](client/public/screenshots/signin.png)
 
-### 2. Dashboard
+### 2. Dashboard & Task & Calendar
 
 ![Dashboard Overview](client/public/screenshots/dashboard.png)
-
-### 3. Task & Calendar
-
 ![Calendar View](client/public/screenshots/dashboard_2.png)
 ![Task Modal](client/public/screenshots/dashboard_3.png)
 
