@@ -1,4 +1,3 @@
-Absolutely! Here's an **enhanced README** with badges, emojis, and mentioning **rate limiting with Arcjet**. I’ve also kept placeholders for screenshots.
 
 ---
 
