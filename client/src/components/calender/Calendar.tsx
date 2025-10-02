@@ -99,7 +99,7 @@ const Calendar: React.FC<CalendarProps> = ({ onDateClick }) => {
                 setView("days");
               }}
               // whileHover={{ scale: 1.05 }}
-              className="h-36 flex items-start justify-start p-5 cursor-pointer border-[0.1px] border-tertiary-100 hover:bg-gray-50"
+              className="h-36 flex items-start justify-start p-5 cursor-pointer neumorphic-in-xs rounded-2xl hover:scale-105 transition-all"
             >
               <span
                 className={`p-5 rounded-full text-sm font-pregular ${
@@ -132,7 +132,7 @@ const Calendar: React.FC<CalendarProps> = ({ onDateClick }) => {
               setView("months");
             }}
             // whileHover={{ scale: 1.05 }}
-            className="h-36 flex items-start justify-start p-5 cursor-pointer border-[0.1px] border-tertiary-100 hover:bg-gray-50"
+            className="h-36 flex items-start justify-start p-5 cursor-pointer neumorphic-in-xs rounded-2xl hover:scale-105 transition-all"
           >
             <span
               className={`p-5 rounded-full text-sm font-pregular ${
@@ -215,7 +215,7 @@ const Calendar: React.FC<CalendarProps> = ({ onDateClick }) => {
               {daysOfWeek.map((day) => (
                 <div
                   key={day}
-                  className="p-3 text-center font-pmedium text-sm border border-opacity-10 border-tertiary-100"
+                  className="p-3 text-center font-pmedium text-sm neumorphic-in-xs rounded-xl"
                 >
                   {day}
                 </div>
@@ -236,7 +236,7 @@ const Calendar: React.FC<CalendarProps> = ({ onDateClick }) => {
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ delay: 0.01 * idx }}
                     onClick={() => handleDateClick(date)}
-                    className={`h-[8em] w-full p-3 border border-opacity-20 border-tertiary-100 cursor-pointer flex flex-col gap-1 hover:bg-gray-50 transition ${
+                    className={`h-[8em] w-full p-3 neumorphic-in-xs rounded-2xl cursor-pointer flex flex-col gap-1 hover:bg-gray-50 transition ${
                       isCurrentMonth ? "bg-primary" : "bg-gray-100 opacity-60"
                     }`}
                   >

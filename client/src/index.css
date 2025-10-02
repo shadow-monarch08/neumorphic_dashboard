@@ -6,6 +6,11 @@
         box-shadow: 17px 17px 34px #a4a4a4,
             -17px -17px 34px #ffffff;
     }
+    .neumorphic-cur-in-sm {
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow: 5px 5px 9px #a4a4a4,
+            -5px -5px 9px #ffffff;
+    }
 
     .neumorphic-cur-out {
         background: linear-gradient(145deg, #f0f0f0, #cacaca);

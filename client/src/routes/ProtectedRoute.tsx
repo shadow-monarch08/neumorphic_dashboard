@@ -43,7 +43,7 @@ const ProtectedRoute = () => {
   if (loading) return <LoadingScreen />;
 
   if (!isAuthenticated) {
-    return <Navigate to="/sign-in" replace />;
+    return <Navigate to="/" replace />;
   }
 
   // ✅ If authenticated, render child routes

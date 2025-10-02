@@ -5,6 +5,7 @@ import SignUp from "../pages/signup";
 import AvatarSelect from "../pages/avatarSelect";
 import Dashboard from "../pages/dashboard/Dashboard";
 import ProtectedRoute from "./ProtectedRoute";
+import Home from "../pages/home";
 
 const AppRoute = () => {
   return (
@@ -12,6 +13,7 @@ const AppRoute = () => {
       <Route path="sign-in" element={<SignIn />} />
       <Route path="sign-up" element={<SignUp />} />
       <Route path="selectAvatar" element={<AvatarSelect />} />
+      <Route index element={<Home />} />
       <Route element={<ProtectedRoute />}>
         <Route path="dashboard" element={<Dashboard />} />
       </Route>
