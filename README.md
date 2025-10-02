@@ -103,11 +103,14 @@ server/
 ![Dashboard Overview](client/public/screenshots/dashboard.png)
 ![Calendar View](client/public/screenshots/dashboard_2.png)
 ![Task Modal](client/public/screenshots/dashboard_3.png)
+<<<<<<< HEAD
 
 ### 3. Home
 
 ![Home Overview](client/public/screenshots/home_1.png)
 ![Home Overview](client/public/screenshots/home_2.png)
+=======
+>>>>>>> d7a03dfc78462c1e4c58d1ee4dd18c965bf2fe95
 
 ### 4. Subscriptions
 
