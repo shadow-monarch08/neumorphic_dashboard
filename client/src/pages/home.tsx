@@ -44,10 +44,12 @@ const Home: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="h-12 w-12 rounded-xl neumorphic-flat-xs flex items-center justify-center">
             {/* simple logo placeholder */}
-            <span className="text-tertiary-100 font-psemibold text-lg">SD</span>
+            <span className="text-tertiary-100 font-psemibold text-lg">TH</span>
           </div>
           <div>
-            <h1 className="text-lg font-psemibold text-tertiary-100">SubDub</h1>
+            <h1 className="text-lg font-psemibold text-tertiary-100">
+              TaskHub
+            </h1>
             <p className="text-xs font-plight text-tertiary-100/80">
               Neumorphic task & subscription manager
             </p>
@@ -145,7 +147,7 @@ const Home: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 rounded-xl neumorphic-in flex items-center justify-center">
                 <span className="text-secondary-200 font-psemibold text-lg">
-                  SD
+                  TH
                 </span>
               </div>
               <div>
@@ -245,10 +247,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-4">
             <div className="h-12 w-12 neumorphic-flat-xs rounded-xl flex items-center justify-center">
-              <span className="font-psemibold text-tertiary-100">SD</span>
+              <span className="font-psemibold text-tertiary-100">TH</span>
             </div>
             <div>
-              <p className="font-pmedium text-tertiary-100">SubDub</p>
+              <p className="font-pmedium text-tertiary-100">TaskHub</p>
               <p className="text-xs font-plight text-black-100/70">
                 Built with ❤️ · Neumorphic UI
               </p>

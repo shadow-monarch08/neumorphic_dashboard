@@ -22,23 +22,23 @@ const contact = [
 ];
 const footer = [
   {
-    title: "PropEase",
+    title: "TaskHub",
     description:
-      "streamlines property management, enabling users to register properties and track maintenance tasks effortlessly in one central hub. Manage your real estate with ease and confidence.",
+      "helps users effortlessly manage their tasks and subscriptions with smart reminders, a clean neumorphic UI, and real-time notifications. Featuring secure authentication, rate limiting, task scheduling, and email alerts, it’s designed to keep you productive and never miss a deadline.",
   },
   {
     icon: ["facebook", "twitter", "linkedin"],
     text: [
-      "Like @PropEase on Facebook",
-      "Follow @PropEase on Twitter",
-      "Connect with @PropEase on Linkedin",
+      "Like @TaskHub on Facebook",
+      "Follow @TaskHub on Twitter",
+      "Connect with @TaskHub on Linkedin",
     ],
   },
   {
     links: ["Services", "About Us", "properties", "Contact Us"],
   },
   {
-    footerText: "Copyright © PropEase 2024. All rights reserved.",
+    footerText: "Copyright © TaskHub 2025. All rights reserved.",
   },
 ];
 
